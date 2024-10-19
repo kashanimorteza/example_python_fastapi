@@ -5,7 +5,7 @@
 
 
 <!---------------------------------------[Install]-->
-<br><br><br>
+<br><br>
 
 ## Source 
     git clone git@github.com:kashanimorteza/example_python_fastapi.git
@@ -14,7 +14,7 @@
 
 
 <!---------------------------------------[Python]-->
-<br><br><br>
+<br><br>
 
 ## Python
 
@@ -34,21 +34,19 @@
 
 
 <!---------------------------------------[WebApi]-->
-<br><br><br>
+<br><br>
 
 ## WebApi
-
-#### Create SSL
-    openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -nodes
 
 #### Run simple
 	fastapi run ./api.py
 
-#### Run HTTP
+#### Run With uvicorn (HTTP)
     uvicorn api:app --host 0.0.0.0 --port 8000
 
-#### Run HTTPS
-    uvicorn webapi.api:app --host 0.0.0.0 --port 8000 --ssl-keyfile=webapi/key.pem --ssl-certfile=webapi/cert.pem
+#### Run With uvicorn (HTTPS)
+	Create SSl : openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -nodes
+    Run : uvicorn webapi.api:app --host 0.0.0.0 --port 8000 --ssl-keyfile=webapi/key.pem --ssl-certfile=webapi/cert.pem
 
 #### Chrome
 	http://0.0.0.0:8000
@@ -57,7 +55,7 @@
 	http://0.0.0.0:8000/docs
 
 <!---------------------------------------[Structure]-->
-<br><br><br>
+<br><br>
 
 ## Structure
 

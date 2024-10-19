@@ -53,7 +53,7 @@
 	----------------
 	uvicorn webapi.api:app --host 0.0.0.0 --port 8000 --ssl-keyfile=webapi/key.pem --ssl-certfile=webapi/cert.pem
 
-#### Run With Nginx (HTTPS)
+#### Run With Nginx (HTTP)
 	...
 
 #### Run With Nginx (HTTPS)

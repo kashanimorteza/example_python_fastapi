@@ -45,8 +45,13 @@
     uvicorn api:app --host 0.0.0.0 --port 8000
 
 #### Run With uvicorn (HTTPS)
-	Create SSl : openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -nodes
-    Run : uvicorn webapi.api:app --host 0.0.0.0 --port 8000 --ssl-keyfile=webapi/key.pem --ssl-certfile=webapi/cert.pem
+	Create SSl
+	----------------
+	openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -nodes
+    
+	Run
+	----------------
+	uvicorn webapi.api:app --host 0.0.0.0 --port 8000 --ssl-keyfile=webapi/key.pem --ssl-certfile=webapi/cert.pem
 
 #### Run With Nginx (HTTPS)
 	...

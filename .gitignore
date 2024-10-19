@@ -1,0 +1,9 @@
+__pycache__/
+.myenv*
+.git
+*.swp
+*.lock
+*.session
+*.log
+log
+*.db

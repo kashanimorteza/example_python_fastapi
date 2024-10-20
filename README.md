@@ -42,7 +42,7 @@
 	fastapi run ./api.py
 
 #### Run With uvicorn (HTTP)
-    uvicorn api:app --host 0.0.0.0 --port 8000
+    uvicorn api:app --host 127.0.0.1 --port 8000
 
 #### Run With uvicorn (HTTPS)
 	Create SSl
@@ -51,7 +51,7 @@
     
 	Run
 	----------------
-	uvicorn webapi.api:app --host 0.0.0.0 --port 8000 --ssl-keyfile=webapi/key.pem --ssl-certfile=webapi/cert.pem
+	uvicorn webapi.api:app --host 127.0.0.1 --port 8000 --ssl-keyfile=webapi/key.pem --ssl-certfile=webapi/cert.pem
 
 #### Run With Nginx (HTTP)
 	...
@@ -60,10 +60,10 @@
 	...
 
 #### Chrome
-	http://0.0.0.0:8000
+	http://127.0.0.1:8000
 
 #### Doc
-	http://0.0.0.0:8000/docs
+	http://127.0.0.1:8000/docs
 
 <!---------------------------------------[Structure]-->
 <br><br>

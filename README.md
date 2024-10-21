@@ -71,8 +71,8 @@
 ## Structure
 	Api
 	Route
+	Service
 	Logic
-	Lib
 	Model
 
 <!---------------------------------------[Example]-->

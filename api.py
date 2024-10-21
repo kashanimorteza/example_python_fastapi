@@ -23,6 +23,3 @@ app.include_router(route_a.api_router_a, prefix="/model_a", tags=["model_a"])
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the API"}
-
-#--------------------------------------------------------------------------------- [Test]
-#route_a.test()

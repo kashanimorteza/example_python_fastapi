@@ -37,31 +37,3 @@ def edit(model : model_a):
 def delete(id : int):
     result = service.delete(id = id)
     return result
-
-#-------------------------- [Test]
-def test():
-
-    #---List
-    params = service.list()
-    print(params)
-
-    #---Item
-    params = service.item('A')
-    print(params)
-
-    #---Model
-    o = model_a()
-    o.id = 1
-    o.name = "morteza"
-    
-    #---Add
-    params = service.add(o)
-    print(params)
-
-    #---Edit
-    params = service.edit(o)
-    print(params)
-
-    #---Delete
-    params = service.delete(o)
-    print(params)

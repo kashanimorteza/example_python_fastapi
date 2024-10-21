@@ -1,7 +1,6 @@
 # routes/route_a.py
 
-from turtle import mode
-from fastapi import HTTPException, APIRouter
+from fastapi import APIRouter
 from models.model_a import model_a
 from services.service_a import service_a
 

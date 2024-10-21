@@ -1,6 +1,6 @@
 <!---------------------------------------[Description]-->
 ## Description
-    This is a example of python with fastapi for API
+    This is a example of python with fastapi for API using MVC model
 
 
 
@@ -39,7 +39,7 @@
 ## WebApi
 
 #### Run simple
-	fastapi run ./api.py
+	fastapi run api.py
 
 #### Run With uvicorn (HTTP)
     uvicorn api:app --host 127.0.0.1 --port 8000
@@ -51,7 +51,7 @@
     
 	Run
 	----------------
-	uvicorn webapi.api:app --host 127.0.0.1 --port 8000 --ssl-keyfile=webapi/key.pem --ssl-certfile=webapi/cert.pem
+	uvicorn api:app --host 127.0.0.1 --port 8000 --ssl-keyfile=key.pem --ssl-certfile=cert.pem
 
 #### Run With Nginx (HTTP)
 	...

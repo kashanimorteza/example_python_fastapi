@@ -1,7 +1,7 @@
 # webapi/api.py
 
 from fastapi import FastAPI
-from webapi.routers import route_a
+from routers import route_a
 
 #-------------------------- [app]
 api_key = "fd051ac1-e342-4631-968d-db3f19b575e7"

@@ -79,5 +79,6 @@
 <br><br>
 
 ## Example
-	simple example : model_a
+	simple example : api_a
+	simple example : api_b
 

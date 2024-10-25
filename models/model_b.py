@@ -1,4 +1,4 @@
-# models/model_a.py
+# models/model_b.py
 
 from pydantic import BaseModel, Field
 

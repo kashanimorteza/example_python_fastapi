@@ -1,8 +1,8 @@
-# webapi/api.py
+# webapi/api_a.py
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import route_a
+from routes import route_a
 
 #--------------------------------------------------------------------------------- [App]
 api_key = "fd051ac1-e342-4631-968d-db3f19b575e7"
